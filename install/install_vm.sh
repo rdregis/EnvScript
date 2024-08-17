@@ -260,6 +260,9 @@ sudo apt-get -y remove needrestart
 installEnv
 installPython
 
+installApplication build-essential
+installApplication gdb
+
 installApplication git
 installApplication curl
 installApplication xsel
